@@ -4,6 +4,6 @@ m = [10,111,1,9,5,67,2]
 for num in m:
     count = 0
     for x in n:
-        if num == x:
+        if x == num:
             count += 1
     print(count)
