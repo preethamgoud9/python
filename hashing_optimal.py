@@ -8,7 +8,7 @@ for num in n:
 print(hash_list)
 
 for x in m:
-    if x < len(hash_list):
-        print(hash_list[x])
-    else:
+    if x < 0 or x >= len(hash_list) :
         print(0)
+    else:
+        print(hash_list[x])
