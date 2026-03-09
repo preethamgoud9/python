@@ -11,4 +11,4 @@ for x in m:
     if x < 0 or x >= len(hash_list) :
         print(0)
     else:
-        print(hash_list[x])
+        print(hash_list[x]) 
