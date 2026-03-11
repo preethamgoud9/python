@@ -2,7 +2,7 @@ count = 0
 
 def func(value):
     global count
-    if count >= value:
+    if count == value:
         return
     else:
         print("preetham")
