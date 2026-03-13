@@ -1,5 +1,4 @@
 s = "markram"
-
 left = 0
 right = len(s) - 1
 
