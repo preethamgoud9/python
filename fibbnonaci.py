@@ -6,6 +6,4 @@ def fibb(n):
     else:
         return fibb(n-1) + fibb(n-2)
 
-result = fibb()
-print(result)
-
+print(fibb(10))
