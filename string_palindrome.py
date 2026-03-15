@@ -1,12 +1,13 @@
-s = "markram"
+string = 'markram'
+
 left = 0
-right = len(s) - 1
+right = len(string) - 1
 
 while left < right:
-    if s[left] != s[right]:
+    if string[left] != string[right]:
         print("not an palindrome")
         break
     left += 1
-    right -=1
+    right -= 1
 else:
-    print("it is an palindrome")
+    print("its an palindrome")

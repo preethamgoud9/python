@@ -1,10 +1,11 @@
-s = 'markram'
+string = 'markram'
 
-def palindrome(s,left,right):
+def palindrome(string,left,right):
     if left >= right:
         return "it is an palindrome"
-    if s[left] != s[right]:
+    if string[left] != string[right]:
         return "not an palindrome"
-    return palindrome(s,left+1,right-1)
+    return palindrome(string,left+1,right-1)
 
-print(palindrome(s,0,len(s)-1))
+result = palindrome(string,0,len(string)-1)
+print(result)
