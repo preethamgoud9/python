@@ -1,12 +1,9 @@
 nums = [5,8,1,6,9,2,4]
+n = len(nums)
 
-for i in range(len(nums)):
-    is_swap = False
-    for j in range(len(nums)-i-1):
+for i in range(n):
+    for j in range(n-i-1):
         if nums[j] > nums[j+1]:
             nums[j],nums[j+1] = nums[j+1],nums[j]
-            is_swap = True
-    if is_swap == False:
-        break
-
+    
 print(nums)
