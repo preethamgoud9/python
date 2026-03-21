@@ -10,4 +10,7 @@ for i in nums:
     elif i > second_largest and i != largest:
         second_largest = i
     
-print(second_largest)
+if second_largest == float("-inf"):
+    print("no second largest")
+else:
+    print(second_largest)

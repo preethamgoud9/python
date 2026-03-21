@@ -1,6 +1,6 @@
 nums = [55,32,-97,99,3,67]
 
-largest = nums[0]
+largest = float("-inf")
 
 for i in nums:
     if i > largest:
