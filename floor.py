@@ -20,6 +20,5 @@ def floor(nums,target):
     return nums[right]
 
 nums = [2,3,5,9,14,16,18]
-
 print(floor(nums,15))
         
